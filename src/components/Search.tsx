@@ -13,7 +13,7 @@ function Search() {
   }
   return (
     <>
-      <div className="flex justify-center  items-center relative mt-10">
+      <div className="flex justify-center  items-center relative mt-15">
         <form className=" w-full flex justify-center">
           <SearchIcon className=" relative top-2.5 left-13  text-[#6c63fe] w-5 h-5" />
           <input

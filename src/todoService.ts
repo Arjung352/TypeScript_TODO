@@ -6,7 +6,8 @@ export const todoService = {
   getTodo: (): TodoTypes[] => {
     const todo = localStorage.getItem(LOCAL_KEY);
     if (todo) {
-      return JSON.parse(todo);
+      const parsed = JSON.parse(todo);
+      return parsed as TodoTypes[];
     } else {
       return [];
     }
